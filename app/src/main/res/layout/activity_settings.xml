@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SettingsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yp_white"
+    android:backgroundTint="@color/yp_white"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <Button
+            android:id="@+id/back_arrow_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:stateListAnimator="@null"
+            android:backgroundTint="@color/yp_white"
+            app:icon="@drawable/ic_arrow_back"
+            app:iconTint="@color/yp_black"
+            android:foreground="?attr/selectableItemBackground"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/settings_screen_name"
+            android:fontFamily="@font/ys_display_m"
+            android:textSize="22sp"
+            android:textColor="@color/yp_black"
+            android:paddingStart="12dp"
+            android:gravity="center"
+            android:textFontWeight="500"
+            />
+
+    </LinearLayout>
+
+    <Switch
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_button_height"
+        android:fontFamily="@font/ys_display_r"
+        android:text="@string/dark_mode"
+        android:textSize="@dimen/settings_button_text_size"
+        android:paddingStart="@dimen/settings_start_pad"
+        android:foreground="?attr/selectableItemBackground"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_button_height"
+        android:stateListAnimator="@null"
+        android:backgroundTint="@color/yp_white"
+        android:textColor="@color/yp_black"
+        android:text="@string/share"
+        android:textSize="@dimen/settings_button_text_size"
+        android:textAllCaps="false"
+        android:fontFamily="@font/ys_display_r"
+        android:letterSpacing="0"
+        android:paddingStart="@dimen/settings_start_pad"
+        android:gravity="center_vertical"
+        app:icon="@drawable/ic_share"
+        app:iconTint="@color/yp_gray"
+        app:iconGravity="end"
+        android:paddingEnd="16dp"
+        android:foreground="?attr/selectableItemBackground"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_button_height"
+        android:stateListAnimator="@null"
+        android:backgroundTint="@color/yp_white"
+        android:textColor="@color/yp_black"
+        android:text="@string/support"
+        android:textSize="@dimen/settings_button_text_size"
+        android:textAllCaps="false"
+        android:fontFamily="@font/ys_display_r"
+        android:letterSpacing="0"
+        android:paddingStart="@dimen/settings_start_pad"
+        android:gravity="center_vertical"
+        app:icon="@drawable/ic_support"
+        app:iconTint="@color/yp_gray"
+        app:iconGravity="end"
+        android:paddingEnd="14dp"
+        android:foreground="?attr/selectableItemBackground"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_button_height"
+        android:stateListAnimator="@null"
+        android:backgroundTint="@color/yp_white"
+        android:textColor="@color/yp_black"
+        android:text="@string/user_agreement"
+        android:textSize="@dimen/settings_button_text_size"
+        android:textAllCaps="false"
+        android:fontFamily="@font/ys_display_r"
+        android:letterSpacing="0"
+        android:paddingStart="@dimen/settings_start_pad"
+        android:gravity="center_vertical"
+        app:icon="@drawable/ic_arrow_forward"
+        app:iconTint="@color/yp_gray"
+        app:iconGravity="end"
+        android:paddingEnd="20dp"
+        android:foreground="?attr/selectableItemBackground"
+        />
+
+</LinearLayout>
+
+
+
+
