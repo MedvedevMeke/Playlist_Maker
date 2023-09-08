@@ -12,8 +12,7 @@ class SearchActivity : AppCompatActivity() {
 
         val backSearchButton = findViewById<Button>(R.id.back_search_button)
         backSearchButton.setOnClickListener {
-            val backSearchIntent = Intent(this, MainActivity::class.java)
-            startActivity(backSearchIntent)
+            this.finish()
         }
     }
 }

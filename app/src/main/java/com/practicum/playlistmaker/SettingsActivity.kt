@@ -12,8 +12,8 @@ class SettingsActivity : AppCompatActivity() {
 
         val backSettingsButton = findViewById<Button>(R.id.back_arrow_button)
         backSettingsButton.setOnClickListener {
-            val backSettingsIntent = Intent(this, MainActivity::class.java)
-            startActivity(backSettingsIntent)
+            this.finish()
+
         }
     }
 }

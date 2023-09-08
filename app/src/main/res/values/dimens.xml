@@ -4,8 +4,8 @@
     <dimen name="main_corner_rad">16dp</dimen>
     <dimen name="main_icon_pad">8dp</dimen>
     <dimen name="main_bottom_pad">16dp</dimen>
-    <dimen name="settings_button_height">61dp</dimen>
+    <dimen name="settings_button_height">64dp</dimen>
     <dimen name="settings_button_text_size">16sp</dimen>
     <dimen name="settings_start_pad">16dp</dimen>
-    <dimen name="zero">0dp</dimen>
+
 </resources>

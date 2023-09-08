@@ -12,8 +12,7 @@ class MediaActivity : AppCompatActivity() {
 
         val backMediaButton = findViewById<Button>(R.id.back_media_button)
         backMediaButton.setOnClickListener {
-            val backMediaIntent = Intent(this, MainActivity::class.java)
-            startActivity(backMediaIntent)
+            this.finish()
         }
     }
 
